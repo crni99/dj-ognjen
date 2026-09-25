@@ -1,0 +1,71 @@
+{
+    "id": "/dj-ognjen/",
+    "name": "DJ Ognjen",
+    "short_name": "DJ Ognjen",
+    "description": "DJ Ognjen — klubovi, privatne i korporativne proslave. House, retro 90e/2000e, Balkan beats i domaći hitovi.",
+    "start_url": "/dj-ognjen/",
+    "scope": "/dj-ognjen/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "lang": "sr",
+    "dir": "ltr",
+    "theme_color": "#000000",
+    "background_color": "#e3ab52",
+    "categories": [
+        "music",
+        "entertainment",
+        "lifestyle"
+    ],
+    "icons": [
+        {
+            "src": "img/web-app-manifest-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "img/web-app-manifest-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "img/web-app-manifest-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "img/web-app-manifest-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Rezerviši termin",
+            "short_name": "Rezerviši",
+            "url": "/dj-ognjen/#kontakt",
+            "icons": [
+                {
+                    "src": "img/web-app-manifest-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "DJ setovi",
+            "short_name": "Setovi",
+            "url": "/dj-ognjen/#setovi",
+            "icons": [
+                {
+                    "src": "img/web-app-manifest-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ]
+}

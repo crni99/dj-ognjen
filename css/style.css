@@ -6,7 +6,7 @@
     --gold-2: #f3cc8a;
     --text: #f2ece1;
     --muted: #a79f90;
-    --display: "Unbounded", "Arial Black", Impact, sans-serif;
+    --display: "Sora", "Arial Black", Impact, sans-serif;
     --body: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
     box-sizing: border-box;
     padding-top: env(safe-area-inset-top, 0px);
@@ -187,6 +187,8 @@ nav a:hover {
 }
 
 .hero h1 span {
+    margin-top: 16px;
+    font-size: xx-large;
     display: block;
     color: var(--gold)
 }
@@ -339,7 +341,7 @@ section {
 }
 
 .genres span {
-    padding: 12px 24px;
+    padding: 16px 16px;
     border-radius: 999px;
     background: var(--gold);
     color: #000;

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crni99.github.io/dj-ognjen/sitemap.xml
