@@ -34,37 +34,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Sora:wght@500;700;800&family=Hanken+Grotesk:wght@400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Hanken+Grotesk:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <script type="application/ld+json">
     {
-    "@context": "https://schema.org",
-    "@type": "MusicGroup",
-    "name": "DJ Ognjen",
-    "url": "https://crni99.github.io/dj-ognjen/",
-    "image": "https://crni99.github.io/dj-ognjen/img/og-image.jpg",
-    "description": "DJ Ognjen: 9+ godina vrhunske energije za klubove, privatne i korporativne proslave.",
-    "genre": ["House", "Retro 90e", "Retro 2000e", "Balkan beats"],
-    "foundingDate": "2017",
-    "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Ljig",
-        "addressCountry": "RS"
-    },
-    "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+381640323344",
-        "contactType": "booking",
-        "availableLanguage": "Serbian"
-    },
-    "sameAs": [
-        "https://www.instagram.com/oggnj3n",
-        "https://www.mixcloud.com/djognjen/"
-    ]
+        "@context": "https://schema.org",
+        "@type": "MusicGroup",
+        "name": "DJ Ognjen",
+        "url": "https://crni99.github.io/dj-ognjen/",
+        "image": "https://crni99.github.io/dj-ognjen/img/og-image.jpg",
+        "description": "DJ Ognjen: 9+ godina vrhunske energije za klubove, privatne i korporativne proslave.",
+        "genre": ["House", "Retro 90e", "Retro 2000e", "Balkan beats"],
+        "foundingDate": "2017",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ljig",
+            "addressCountry": "RS"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+381640323344",
+            "contactType": "booking",
+            "availableLanguage": "Serbian"
+        },
+        "sameAs": [
+            "https://www.instagram.com/oggnj3n",
+            "https://www.mixcloud.com/djognjen/"
+        ]
     }
-</script>
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+            "@type": "Question",
+            "name": "Da li nosiš svoju opremu i rasvetu?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ozvučenje i rasvetu obezbeđuje klub ili organizator, u zavisnosti od mesta. To unapred proveravam i usaglašavam sa njima, tako da na dan događaja sve bude spremno i ne moraš dodatno da se brineš oko toga."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Koliko unapred treba rezervisati termin?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Za vikende, praznike i sezonu proslava preporučujem da se javiš čim odrediš datum, jer se popularni termini brzo popune. Za ostale dane obično ima više fleksibilnosti, ali svakako prijavi datum na vreme radi sigurnosti."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Kako se dogovara muzički repertoar?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pre nastupa razgovaramo o tome šta želiš, i šta ne želiš, da se čuje, kao i o tipu publike i atmosferi koju priželjkuješ. Na samom nastupu se onda oslanjam na taj dogovor i čitanje publike uživo, tako da se repertoar prirodno gradi tokom večeri."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Koliko traje nastup?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Zavisi od tipa događaja, nastupi u klubu traju obično 4 do 5 sati, dok se za privatne i korporativne proslave trajanje dogovara unapred, prema planu večeri."
+            }
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body>
@@ -78,6 +118,7 @@
                 <a href="#repertoar">Repertoar</a>
                 <a href="#nastupi">Nastupi</a>
                 <a href="#setovi">Setovi</a>
+                <a href="#faq">Pitanja</a>
                 <a class="btn solid sm" href="#kontakt">Rezerviši</a>
             </nav>
         </div>
@@ -166,9 +207,6 @@
         <section id="nastupi">
             <div class="wrap">
                 <div class="head">
-                    <div>
-
-                    </div>
                     <h2>Nastupi uživo</h2>
                     <p>Pogledaj kako to izgleda kad se podijum napuni.</p>
                 </div>
@@ -316,6 +354,8 @@
         aria-label="Piši na WhatsApp">
         <img src="img/whatsapp.svg" alt="" width="28" height="28">
     </a>
+
+    <script src="js/floatingButton.js" defer></script>
 
 </body>
 

@@ -2,7 +2,7 @@
     --bg: #000;
     --panel: #0e0d0b;
     --line: #2a2419;
-    --gold: #e3ac55;
+    --gold: #e3ab52;
     --gold-2: #f3cc8a;
     --text: #f2ece1;
     --muted: #a79f90;
@@ -169,7 +169,7 @@ nav a:hover {
     height: 70vw;
     max-width: 900px;
     max-height: 900px;
-    background: radial-gradient(circle, rgba(227, 172, 85, .16), transparent 62%);
+    background: radial-gradient(circle, rgba(227, 171, 82, .16), transparent 62%);
     pointer-events: none
 }
 
@@ -562,7 +562,7 @@ section {
 }
 
 .contact .btn.ghost:hover img {
-    filter: invert(77%) sepia(50%) saturate(896%) hue-rotate(325deg) brightness(110%) contrast(78%);
+    filter: invert(86%) sepia(32%) saturate(6876%) hue-rotate(333deg) brightness(125%) contrast(78%);
 }
 
 .meta {
@@ -611,6 +611,21 @@ footer img {
     background: var(--gold);
     box-shadow: 0 6px 24px rgba(0, 0, 0, .45);
     transition: transform .2s, background .2s;
+    animation: pulse-wa 2s infinite;
+}
+
+@keyframes pulse-wa {
+    0% {
+        box-shadow: 0 6px 24px rgba(0, 0, 0, .45), 0 0 0 0 rgba(227, 172, 85, .55);
+    }
+
+    70% {
+        box-shadow: 0 6px 24px rgba(0, 0, 0, .45), 0 0 0 16px rgba(227, 172, 85, 0);
+    }
+
+    100% {
+        box-shadow: 0 6px 24px rgba(0, 0, 0, .45), 0 0 0 0 rgba(227, 172, 85, 0);
+    }
 }
 
 .whatsapp-float:hover {
@@ -622,6 +637,12 @@ footer img {
     width: 28px;
     height: 28px;
     filter: brightness(0);
+}
+
+.whatsapp-float.is-hidden {
+    opacity: 0;
+    transform: scale(.8);
+    pointer-events: none;
 }
 
 @media (max-width:860px) {
@@ -684,5 +705,9 @@ footer img {
     .tile,
     .btn {
         transition: none
+    }
+
+    .whatsapp-float {
+        animation: none
     }
 }

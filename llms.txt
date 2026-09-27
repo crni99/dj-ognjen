@@ -1,0 +1,19 @@
+# DJ Ognjen
+
+> DJ Ognjen je profesionalni DJ sa 9+ godina iskustva, iz Ljiga, Srbija. Svira u klubovima, na privatnim proslavama (rođendani, svadbe, žurke) i korporativnim događajima širom Srbije. Repertoar: house, retro 90e i 2000e, Balkan beats i domaći hitovi.
+
+Sajt je jednostranični (one-page): sve sekcije su dostupne preko sidrenih linkova (#repertoar, #nastupi, #setovi, #faq, #kontakt) na istoj HTML stranici.
+
+## Sekcije
+
+- [Repertoar](https://crni99.github.io/dj-ognjen/#repertoar): tipovi nastupa (klubovi, privatne proslave) i muzički žanrovi.
+- [Nastupi uživo](https://crni99.github.io/dj-ognjen/#nastupi): snimci sa stvarnih nastupa, sa linkovima na Instagram.
+- [DJ setovi](https://crni99.github.io/dj-ognjen/#setovi): kompletni audio miksevi na Mixcloudu.
+- [Često postavljana pitanja](https://crni99.github.io/dj-ognjen/#faq): odgovori o opremi, rezervaciji termina i dogovoru repertoara.
+- [Kontakt](https://crni99.github.io/dj-ognjen/#kontakt): WhatsApp, Viber, Instagram i telefon za rezervacije.
+
+## Kontakt
+
+- Telefon / WhatsApp / Viber: +381 64 032 3344
+- Instagram: https://www.instagram.com/oggnj3n
+- Mixcloud: https://www.mixcloud.com/djognjen/
