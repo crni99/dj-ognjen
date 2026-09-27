@@ -9,7 +9,7 @@
                 floatBtn.classList.toggle('is-hidden', entry.isIntersecting);
             });
         },
-        { threshold: 0.4 }
+        { threshold: 0.3 }
     );
 
     observer.observe(contactSection);

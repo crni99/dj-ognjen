@@ -574,28 +574,6 @@ section {
     border-bottom: 1.5px solid #000
 }
 
-footer {
-    padding: 28px 0;
-    color: var(--muted);
-    font-size: .95rem
-}
-
-footer .wrap {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    flex-wrap: wrap;
-    align-items: center
-}
-
-footer img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    vertical-align: middle;
-    margin-right: 8px
-}
-
 /* WhatsApp float */
 .whatsapp-float {
     position: fixed;
@@ -643,6 +621,123 @@ footer img {
     opacity: 0;
     transform: scale(.8);
     pointer-events: none;
+}
+
+/* Footer */
+footer {
+    padding: 28px 0;
+    color: var(--muted);
+    font-size: .95rem
+}
+
+footer .wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 8px
+}
+
+.footer-left {
+    display: flex;
+}
+
+.footer-left .brand-mini {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-left .brand-mini img {
+    margin-right: 0;
+}
+
+footer .privacy {
+    text-align: right;
+}
+
+footer .privacy summary {
+    list-style: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--muted);
+    font-size: .95rem;
+    font-weight: 500;
+    transition: color .2s;
+}
+
+footer .privacy summary:hover {
+    color: var(--gold);
+}
+
+footer .privacy summary::-webkit-details-marker {
+    display: none;
+}
+
+footer .privacy summary::after {
+    content: "+";
+    font-size: 1.1rem;
+    line-height: 1;
+    transform: translateY(-2px);
+    transition: transform .2s;
+}
+
+footer .privacy[open] summary::after {
+    transform: rotate(45deg);
+}
+
+footer .privacy-body {
+    margin-top: 14px;
+    max-width: 60ch;
+    text-align: left;
+    color: var(--muted);
+    font-size: .92rem;
+    line-height: 1.7;
+}
+
+footer .privacy-body p+p {
+    margin-top: 10px;
+}
+
+footer .privacy-body h3 {
+    margin-top: 18px;
+    font-family: var(--body);
+    font-size: .95rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+footer .privacy-body h3:first-child {
+    margin-top: 0;
+}
+
+footer .privacy-body p {
+    margin-top: 6px;
+}
+
+@media (max-width:860px) {
+    footer .wrap {
+        align-items: flex-start;
+    }
+
+    footer .privacy {
+        text-align: left;
+        width: 100%;
+    }
+
+    footer .privacy-body {
+        max-width: none;
+    }
 }
 
 @media (max-width:860px) {
