@@ -56,6 +56,18 @@
             ]
         },
         {
+            "name": "Nastupi uživo",
+            "short_name": "Nastupi",
+            "url": "/dj-ognjen/#nastupi",
+            "icons": [
+                {
+                    "src": "img/web-app-manifest-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
             "name": "DJ setovi",
             "short_name": "Setovi",
             "url": "/dj-ognjen/#setovi",
