@@ -162,7 +162,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     background:
-        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(10, 10, 10, 0.8) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(10, 10, 10, 0.8) 100%),
         url('../img/hero.webp') no-repeat center center / cover;
 }
 
@@ -201,6 +201,34 @@ nav a:hover {
     font-size: xx-large;
     display: block;
     color: var(--gold);
+}
+
+@media (max-width: 400px) {
+
+    .hero h1 {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 395px) {
+
+    .hero h1 {
+        margin-top: 96px;
+    }
+}
+
+@media (max-width: 336px) {
+
+    .hero h1 {
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 310px) {
+
+    .hero h1 {
+        margin-top: 96px;
+    }
 }
 
 .lead {
@@ -299,6 +327,13 @@ nav a:hover {
 
     to {
         transform: scaleY(1)
+    }
+}
+
+@media (max-width: 859px) {
+
+    .eq {
+        display: none;
     }
 }
 
