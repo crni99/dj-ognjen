@@ -162,7 +162,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     background:
-        linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(10, 10, 10, 0.8) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(10, 10, 10, 1) 100%),
         url('../img/hero.webp') no-repeat center center / cover;
 }
 
