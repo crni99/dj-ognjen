@@ -153,11 +153,17 @@ nav a:hover {
     flex: none
 }
 
-/* hero */
+/* Hero */
 .hero {
-    padding: clamp(40px, 8vw, 96px) 0 clamp(56px, 9vw, 110px);
+    min-height: 93vh;
+    padding: clamp(100px, 12vw, 140px) 0 clamp(56px, 9vw, 110px);
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(10, 10, 10, 0.8) 100%),
+        url('../img/hero.webp') no-repeat center center / cover;
 }
 
 .hero::before {
@@ -169,8 +175,9 @@ nav a:hover {
     height: 70vw;
     max-width: 900px;
     max-height: 900px;
-    background: radial-gradient(circle, rgba(227, 171, 82, .16), transparent 62%);
-    pointer-events: none
+    background: radial-gradient(circle, rgba(227, 171, 82, .22), transparent 62%);
+    pointer-events: none;
+    z-index: 1;
 }
 
 .hero .wrap {
@@ -178,19 +185,22 @@ nav a:hover {
     grid-template-columns: 1.15fr .85fr;
     gap: 40px;
     align-items: center;
-    position: relative
+    position: relative;
+    z-index: 2;
 }
 
 .hero h1 {
     font-size: clamp(2.6rem, 7.2vw, 5.6rem);
-    font-weight: 900
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 span {
     margin-top: 16px;
     font-size: xx-large;
     display: block;
-    color: var(--gold)
+    color: var(--gold);
 }
 
 .lead {
@@ -308,6 +318,142 @@ section {
 
 .head p {
     color: var(--muted)
+}
+
+/* Sekcija: Gde sam sve nastupao */
+#gde-sam-nastupao {
+    padding: clamp(48px, 8vw, 80px) 0;
+}
+
+.venues-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.venue-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+
+.venue-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--gold, #e3ab52);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.venue-card img {
+    max-width: 100%;
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(100%) opacity(0.7);
+    transition: filter 0.3s ease;
+}
+
+.venue-card:hover img {
+    filter: grayscale(0%) opacity(1);
+}
+
+.venue-card span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 480px) {
+    .venues-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+}
+
+.carousel-section {
+    padding: clamp(48px, 8vw, 80px) 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.venues-carousel {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 32px;
+    position: relative;
+    mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.venues-track {
+    display: flex;
+    gap: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: max-content;
+    animation: scrollInfinity 16s linear infinite;
+}
+
+.venues-carousel:hover .venues-track {
+    animation-play-state: paused;
+}
+
+.venues-track .venue-card {
+    width: 200px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+
+.venues-track .venue-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--gold, #e3ab52);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.venues-track .venue-card img {
+    max-width: 100%;
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(100%) opacity(0.7);
+    transition: filter 0.3s ease;
+}
+
+.venues-track .venue-card:hover img {
+    filter: grayscale(0%) opacity(1);
+}
+
+.venues-track .venue-card span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@keyframes scrollInfinity {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 #setovi .head {
