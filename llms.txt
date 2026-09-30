@@ -10,12 +10,12 @@ Ljig, Lajkovac, Lazarevac, Ub, Aranđelovac, Mionica, Valjevo, Gornji Milanovac 
 
 ## Sekcije
 
-- [Repertoar](djognjen.rs/#repertoar): tipovi nastupa (klubovi, privatne i korporativne proslave) i muzički žanrovi.
-- [Kako izgleda saradnja](djognjen.rs/#saradnja): koraci od prvog javljanja do nastupa.
-- [Nastupi uživo](djognjen.rs/#nastupi): snimci sa stvarnih nastupa, sa linkovima na Instagram.
-- [DJ setovi](djognjen.rs/#setovi): kompletni audio miksevi na Mixcloudu.
-- [Često postavljana pitanja](djognjen.rs/#faq): odgovori o opremi, rezervaciji termina, trajanju nastupa i dogovoru repertoara.
-- [Kontakt](djognjen.rs/#kontakt): WhatsApp, Viber, Instagram i telefon za rezervacije.
+- [Repertoar](https://djognjen.rs/#repertoar): tipovi nastupa (klubovi, privatne i korporativne proslave) i muzički žanrovi.
+- [Kako izgleda saradnja](https://djognjen.rs/#saradnja): koraci od prvog javljanja do nastupa.
+- [Nastupi uživo](https://djognjen.rs/#nastupi): snimci sa stvarnih nastupa, sa linkovima na Instagram.
+- [DJ setovi](https://djognjen.rs/#setovi): kompletni audio miksevi na Mixcloudu.
+- [Često postavljana pitanja](https://djognjen.rs/#faq): odgovori o opremi, rezervaciji termina, trajanju nastupa i dogovoru repertoara.
+- [Kontakt](https://djognjen.rs/#kontakt): WhatsApp, Viber, Instagram i telefon za rezervacije.
 
 ## Kontakt
 

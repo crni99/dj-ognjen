@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: djognjen.rs/sitemap.xml
+Sitemap: https://djognjen.rs/sitemap.xml

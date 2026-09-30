@@ -1,10 +1,10 @@
 {
-    "id": "/dj-ognjen/",
+    "id": "/",
     "name": "DJ Ognjen",
     "short_name": "DJ Ognjen",
     "description": "DJ Ognjen — DJ za klubove, svadbe i proslave u Ljigu, Lazarevcu, Valjevu i okolini.",
-    "start_url": "/dj-ognjen/",
-    "scope": "/dj-ognjen/",
+    "start_url": "/",
+    "scope": "/",
     "display": "standalone",
     "orientation": "portrait-primary",
     "lang": "sr",
@@ -46,7 +46,7 @@
         {
             "name": "Rezerviši termin",
             "short_name": "Rezerviši",
-            "url": "/dj-ognjen/#kontakt",
+            "url": "/#kontakt",
             "icons": [
                 {
                     "src": "img/favicons/web-app-manifest-192x192.png",
@@ -58,7 +58,7 @@
         {
             "name": "Nastupi uživo",
             "short_name": "Nastupi",
-            "url": "/dj-ognjen/#nastupi",
+            "url": "/#nastupi",
             "icons": [
                 {
                     "src": "img/favicons/web-app-manifest-192x192.png",
@@ -70,7 +70,7 @@
         {
             "name": "DJ setovi",
             "short_name": "Setovi",
-            "url": "/dj-ognjen/#setovi",
+            "url": "/#setovi",
             "icons": [
                 {
                     "src": "img/favicons/web-app-manifest-192x192.png",
