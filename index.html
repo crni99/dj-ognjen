@@ -15,8 +15,8 @@
     <meta property="og:title" content="DJ Ognjen | DJ za klubove, svadbe i proslave | Ljig, Lazarevac">
     <meta property="og:description"
         content="DJ Ognjen, 9+ godina iskustva: klubovi, svadbe, rođendani i firme. Nastupi u Ljigu, Lazarevcu, Valjevu, Čačku i celoj okolini.">
-    <meta property="og:image" content="djognjen.rs/img/favicons/og-image.jpg">
-    <meta property="og:url" content="djognjen.rs">
+    <meta property="og:image" content="https://djognjen.rs/img/favicons/og-image.jpg">
+    <meta property="og:url" content="https://djognjen.rs/">
     <meta property="og:locale" content="sr_RS">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -54,8 +54,8 @@
         "@context": "https://schema.org",
         "@type": "MusicGroup",
         "name": "DJ Ognjen",
-        "url": "djognjen.rs",
-        "image": "djognjen.rs/img/og-image.jpg",
+        "url": "https://djognjen.rs/",
+        "image": "https://djognjen.rs/img/favicons/og-image.jpg",
         "description": "DJ Ognjen: 9+ godina vrhunske energije za klubove, privatne i korporativne proslave.",
         "genre": ["House", "Retro 90e", "Retro 2000e", "Balkan beats"],
         "foundingDate": "2017",
@@ -169,7 +169,8 @@
                 <a href="#nastupi">Nastupi</a>
                 <a href="#setovi">Setovi</a>
                 <a href="#faq">Pitanja</a>
-                <a class="btn solid sm" href="#kontakt">Rezerviši</a>
+                <a class="btn solid sm" href="#kontakt" data-ga-event="nav_rezervisi_click"
+                    data-ga-location="header">Rezerviši</a>
             </nav>
         </div>
     </header>
@@ -182,9 +183,10 @@
                     <p class="lead">Klubovi, privatne i korporativne proslave. Repertoar prilagođen publici, tako da
                         se igra od prve do poslednje pesme.</p>
                     <div class="cta">
-                        <a class="btn solid" href="https://wa.me/381640323344" target="_blank" rel="noopener">Rezerviši
-                            termin</a>
-                        <a class="btn ghost" href="#setovi">Poslušaj setove</a>
+                        <a class="btn solid" href="https://wa.me/381640323344" target="_blank" rel="noopener"
+                            data-ga-event="whatsapp_click" data-ga-location="hero">Rezerviši termin</a>
+                        <a class="btn ghost" href="#setovi" data-ga-event="sets_click" data-ga-location="hero">Poslušaj
+                            setove</a>
                     </div>
                 </div>
                 <div class="stage">
@@ -300,20 +302,23 @@
                 </div>
                 <div class="links">
                     <a class="tile media" href="https://www.instagram.com/reel/DavFxQitzUZ/" target="_blank"
-                        rel="noopener">
+                        rel="noopener" data-ga-event="instagram_reel_click" data-ga-location="nastupi"
+                        data-ga-item="spring_recap">
                         <b>Spring Recap '26</b>
                         <img src="img/media/spring-recap.webp" alt="Spring Recap 2026" loading="lazy">
                         <span class="go">Gledaj na Instagramu</span>
                     </a>
                     <a class="tile media" href="https://www.instagram.com/reel/DYHOFGDtSrP/" target="_blank"
-                        rel="noopener">
+                        rel="noopener" data-ga-event="instagram_reel_click" data-ga-location="nastupi"
+                        data-ga-item="freedom_and_love">
                         <b>Freedom and Love</b>
                         <img src="img/media/freedom-and-love.webp" alt="Freedom and Love" loading="lazy">
                         <span class="go">Gledaj na Instagramu</span>
                     </a>
                     <a class="tile media"
                         href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODg3MTQ5MDUzNjI1Mzg4?story_media_id=3857231622181827189_1581443572&amp;stkn=MWR3MGIxeGh4OXYxaA%3D%3D"
-                        target="_blank" rel="noopener">
+                        target="_blank" rel="noopener" data-ga-event="instagram_reel_click" data-ga-location="nastupi"
+                        data-ga-item="atmosfera">
                         <b>Atmosfera sa žurki</b>
                         <img src="img/media/party-atmosphere.webp" alt="Atmosfera sa žurki" loading="lazy">
                         <span class="go">Gledaj na Instagramu</span>
@@ -422,7 +427,7 @@
                         <span>Svečana Sala Crystal Lux</span>
                     </div>
                 </div>
-
+            </div>
         </section>
 
         <section id="setovi">
@@ -432,7 +437,8 @@
                         <h2>DJ setovi</h2>
                         <p>Kompletni miksevi na Mixcloudu, za slušanje kad god ti odgovara.</p>
                     </div>
-                    <a class="btn ghost sm" href="https://www.mixcloud.com/djognjen/" target="_blank" rel="noopener">
+                    <a class="btn ghost sm" href="https://www.mixcloud.com/djognjen/" target="_blank" rel="noopener"
+                        data-ga-event="mixcloud_click" data-ga-location="setovi">
                         <img src="img/icons/headphones.svg" alt="" width="20" height="20">
                         Slušaj sve setove
                     </a>
@@ -509,9 +515,10 @@
                         <summary>Gde mogu da vidim nove snimke sa nastupa?</summary>
                         <div class="faq-body">
                             <p>Nove fotografije i snimke sa događaja redovno objavljujem na Instagramu
-                                (<a href="https://www.instagram.com/oggnj3n" target="_blank"
-                                    rel="noopener">@oggnj3n</a>),
-                                a kompletne setove možeš poslušati na <a href="#setovi">Mixcloudu</a>.</p>
+                                (<a href="https://www.instagram.com/oggnj3n" target="_blank" rel="noopener"
+                                    data-ga-event="instagram_click" data-ga-location="faq">@oggnj3n</a>),
+                                a kompletne setove možeš poslušati na <a href="#setovi" data-ga-event="mixcloud_click"
+                                    data-ga-location="faq">Mixcloudu</a>.</p>
                         </div>
                     </details>
                 </div>
@@ -525,19 +532,23 @@
                     <p>Pošaljite datum, mesto i vrstu događaja, a ja vam javljam da li sam slobodan i šaljem ponudu.</p>
                 </div>
                 <div class="cta">
-                    <a class="btn solid" href="https://wa.me/381640323344" target="_blank" rel="noopener">
+                    <a class="btn solid" href="https://wa.me/381640323344" target="_blank" rel="noopener"
+                        data-ga-event="whatsapp_click" data-ga-location="kontakt">
                         <img src="img/icons/whatsapp.svg" alt="" width="20" height="20">
                         Piši na WhatsApp
                     </a>
-                    <a class="btn ghost" href="viber://chat?number=%2B381640323344" target="_blank" rel="noopener">
+                    <a class="btn ghost" href="viber://chat?number=%2B381640323344" target="_blank" rel="noopener"
+                        data-ga-event="viber_click" data-ga-location="kontakt">
                         <img src="img/icons/viber.svg" alt="" width="20" height="20">
                         Viber poruka
                     </a>
-                    <a class="btn ghost" href="https://ig.me/m/oggnj3n" target="_blank" rel="noopener">
+                    <a class="btn ghost" href="https://ig.me/m/oggnj3n" target="_blank" rel="noopener"
+                        data-ga-event="instagram_click" data-ga-location="kontakt">
                         <img src="img/icons/instagram.svg" alt="" width="20" height="20">
                         Instagram poruka
                     </a>
-                    <a class="btn ghost" href="tel:+381640323344">
+                    <a class="btn ghost" href="tel:+381640323344" data-ga-event="phone_click"
+                        data-ga-location="kontakt">
                         <img src="img/icons/phone.svg" alt="" width="20" height="20">
                         Pozovi
                     </a>
@@ -585,11 +596,12 @@
     </footer>
 
     <a class="whatsapp-float" href="https://wa.me/381640323344" target="_blank" rel="noopener"
-        aria-label="Piši na WhatsApp">
+        aria-label="Piši na WhatsApp" data-ga-event="whatsapp_click" data-ga-location="float">
         <img src="img/icons/whatsapp.svg" alt="" width="28" height="28">
     </a>
 
     <script src="js/floatingButton.js" defer></script>
+    <script src="js/analytics-events.js" defer></script>
 
 </body>
 
