@@ -1,20 +1,30 @@
 # DJ Ognjen
 
-> DJ Ognjen je DJ iz Ljiga, Srbija, sa 9+ godina iskustva. Nastupa u klubovima, na svadbama, rođendanima, privatnim proslavama i korporativnim događajima. Repertoar obuhvata house, retro 90e i 2000e, Balkan beats i domaće hitove.
+> DJ Ognjen je DJ iz Ljiga, Srbija, sa 9+ godina iskustva. Nastupa u klubovima, na žurkama, svadbama, rođendanima, punoletstvima i drugim privatnim proslavama, uključujući proslave firmi. Repertoar obuhvata house, retro 90e i 2000e, Balkan beats i domaće hitove.
 
-Sajt je jednostranični (one-page): sve sekcije su dostupne preko sidrenih linkova (#repertoar, #saradnja, #nastupi, #setovi, #faq, #kontakt) na istoj HTML stranici.
+Sajt ima početnu stranu sa svim sekcijama (dostupne preko sidrenih linkova) i posebne strane za najčešće tipove događaja.
+
+## Strane po tipu događaja
+
+- [DJ za žurke i klubove](https://djognjen.rs/dj-za-zurke-i-klubove.html): klupske noći, tematske i organizovane žurke. Nastup najčešće traje 4 do 5 sati. DJ donosi svoj kontroler i prateću opremu, a ozvučenje obezbeđuje klub ili organizator.
+- [DJ za svadbe](https://djognjen.rs/dj-za-svadbe.html): muzika po željama mladenaca, prvi ples, tok večeri, formati nastupa (blok za tortu, duži nastup, after posle benda) i rezervacija termina.
+- [DJ za rođendane i punoletstva](https://djognjen.rs/dj-za-rodjendane.html): rođendani, punoletstva, privatne žurke i godišnjice, uz muziku prilagođenu slavljeniku i društvu.
 
 ## Područje rada
 
 Ljig, Lajkovac, Lazarevac, Ub, Aranđelovac, Mionica, Valjevo, Gornji Milanovac i Čačak. Za događaje van ovog područja moguć je dogovor po upitu.
 
-## Sekcije
+## Sekcije početne strane
 
-- [Repertoar](https://djognjen.rs/#repertoar): tipovi nastupa (klubovi, privatne i korporativne proslave) i muzički žanrovi.
-- [Kako izgleda saradnja](https://djognjen.rs/#saradnja): koraci od prvog javljanja do nastupa.
+- [Događaji](https://djognjen.rs/#repertoar): tipovi nastupa (žurke i klubovi, svadbe, rođendani i privatne proslave).
+- [Muzički repertoar](https://djognjen.rs/#muzika): house i klupska muzika, domaći i regionalni hitovi, hitovi 90-ih i 2000-ih.
+- [Kult Talents](https://djognjen.rs/#kult-talents): DJ Ognjen je deo razvojnog programa Kult Talents u Klubu Kult u Beogradu.
+- [Kako izgleda rezervacija](https://djognjen.rs/#saradnja): koraci od prvog javljanja do nastupa.
 - [Nastupi uživo](https://djognjen.rs/#nastupi): snimci sa stvarnih nastupa, sa linkovima na Instagram.
+- [Gde sam nastupao](https://djognjen.rs/#gde-sam-nastupao): klubovi, kafići i svečane sale u kojima je DJ Ognjen nastupao.
 - [DJ setovi](https://djognjen.rs/#setovi): kompletni audio miksevi na Mixcloudu.
-- [Često postavljana pitanja](https://djognjen.rs/#faq): odgovori o opremi, rezervaciji termina, trajanju nastupa i dogovoru repertoara.
+- [Lokacije](https://djognjen.rs/#lokacije): mesta u kojima nastupa.
+- [Česta pitanja](https://djognjen.rs/#faq): odgovori o opremi, rezervaciji termina, trajanju nastupa i dogovoru repertoara.
 - [Kontakt](https://djognjen.rs/#kontakt): WhatsApp, Viber, Instagram i telefon za rezervacije.
 
 ## Kontakt
