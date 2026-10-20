@@ -45,6 +45,7 @@
     </noscript>
 
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/consent.css">
 
     <link rel="preload" as="image" href="/img/logo.webp" fetchpriority="high">
     <link rel="preload" as="image" href="/img/hero.webp" fetchpriority="high">
@@ -162,12 +163,16 @@
             <a class="brand" href="/" aria-label="DJ Ognjen, početna strana">
                 <img src="/img/logo.webp" alt="DJ Ognjen logo: glava sa slušalicama i naočarima">DJ Ognjen
             </a>
-            <nav aria-label="Glavna navigacija">
+            <button class="menu-toggle" aria-label="Otvori meni">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav aria-label="Glavna navigacija" id="main-nav">
                 <a href="/">Početna</a>
-                <a href="#zelje">Muzika</a>
-                <a href="#repertoar">Repertoar</a>
-                <a href="#rezervacija">Rezervacija</a>
-                <a href="#faq">Pitanja</a>
+                <a href="/dj-za-zurke-i-klubove.html">DJ za žurke i klubove</a>
+                <a href="/dj-za-rodjendane.html" class="active">DJ za rođendane</a>
+                <a href="/dj-za-svadbe.html">DJ za svadbe</a>
                 <a class="btn solid sm" href="#kontakt" data-ga-event="nav_rezervisi_click"
                     data-ga-location="header">Rezervišite</a>
             </nav>
@@ -537,8 +542,9 @@
         <img src="/img/icons/whatsapp.svg" alt="" width="28" height="28">
     </a>
 
+    <script src="/js/menu.js" defer></script>
     <script src="/js/floatingButton.js" defer></script>
-    <script src="/js/analytics-events.js" defer></script>
+    <script src="/js/consent.js" defer></script>
 
 </body>
 

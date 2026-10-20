@@ -45,6 +45,7 @@
     </noscript>
 
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/consent.css">
 
     <link rel="preload" as="image" href="/img/logo.webp" fetchpriority="high">
     <link rel="preload" as="image" href="/img/hero.webp" fetchpriority="high">
@@ -183,15 +184,19 @@
 
     <header>
         <div class="wrap bar">
-            <a class="brand" href="#top" aria-label="DJ Ognjen, na vrh">
+            <a class="brand" href="/" aria-label="DJ Ognjen, početna strana">
                 <img src="/img/logo.webp" alt="DJ Ognjen logo: glava sa slušalicama i naočarima">DJ Ognjen
             </a>
-            <nav aria-label="Glavna navigacija">
-                <a href="#repertoar">Događaji</a>
-                <a href="#saradnja">Rezervacija</a>
-                <a href="#nastupi">Nastupi</a>
-                <a href="#setovi">Setovi</a>
-                <a href="#faq">Pitanja</a>
+            <button class="menu-toggle" aria-label="Otvori meni">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav aria-label="Glavna navigacija" id="main-nav">
+                <a href="/" class="active">Početna</a>
+                <a href="/dj-za-zurke-i-klubove.html">DJ za žurke i klubove</a>
+                <a href="/dj-za-rodjendane.html">DJ za rođendane</a>
+                <a href="/dj-za-svadbe.html">DJ za svadbe</a>
                 <a class="btn solid sm" href="#kontakt" data-ga-event="nav_rezervisi_click"
                     data-ga-location="header">Rezervišite</a>
             </nav>
@@ -723,36 +728,13 @@
         <div class="wrap">
             <div class="footer-left">
                 <span class="brand-mini">
-                    <img src="/img/logo.webp" alt="DJ Ognjen logo: glava sa slušalicama i naočarima">&copy; 2026 DJ
-                    Ognjen. Sva prava zadržana.
+                    <img src="/img/logo.webp" alt="DJ Ognjen logo">&copy; 2026 DJ Ognjen. Sva prava zadržana.
                 </span>
             </div>
-            <details class="privacy">
-                <summary>Politika privatnosti</summary>
-                <div class="privacy-body">
-                    <h3>1. Opšte informacije</h3>
-                    <p>Ova Politika privatnosti objašnjava kako rukovalac podataka (DJ Ognjen) prikuplja i koristi vaše
-                        podatke prilikom posete sajtu.</p>
-
-                    <h3>2. Analitika i kolačići</h3>
-                    <p>Sajt koristi Google Analytics za praćenje poseta i poboljšanje korisničkog iskustva. Pritom se
-                        prikupljaju anonimizovani podaci poput vrste uređaja, internet pregledača, približne lokacije i
-                        pregledanih stranica. Google Analytics postavlja analitičke kolačiće na vaš uređaj radi
-                        generisanja ovih izveštaja. Ovi podaci se ne prodaju niti dele sa trećim licima, osim sa
-                        kompanijom Google kao pružaocem usluge.</p>
-
-                    <h3>3. Kontakt i rezervacije</h3>
-                    <p>Podaci koje nam dostavite putem WhatsApp-a, Viber-a, Instagrama ili telefonskog poziva (ime, broj
-                        telefona, detalji o događaju) koriste se isključivo u svrhu komunikacije i realizacije
-                        rezervacije. Ti podaci se ne čuvaju u posebnoj eksternoj bazi niti se prosleđuju trećim licima.
-                    </p>
-
-                    <h3>4. Vaša prava</h3>
-                    <p>U svakom trenutku imate pravo da zatražite pristup, ispravku ili brisanje ličnih podataka koje
-                        ste podelili u razgovoru. Za sva pitanja u vezi sa zaštitom privatnosti možete nas kontaktirati
-                        putem broja telefona ili profil na Instagramu navedenih u kontakt sekciji.</p>
-                </div>
-            </details>
+            <button type="button" data-cookie-settings
+                style="background:none;border:none;color:var(--muted);cursor:pointer;font-size:0.9rem;">
+                Podešavanje kolačića
+            </button>
         </div>
     </footer>
 
@@ -761,8 +743,9 @@
         <img src="/img/icons/whatsapp.svg" alt="" width="28" height="28">
     </a>
 
+    <script src="/js/menu.js" defer></script>
     <script src="/js/floatingButton.js" defer></script>
-    <script src="/js/analytics-events.js" defer></script>
+    <script src="/js/consent.js" defer></script>
 
 </body>
 

@@ -1,0 +1,97 @@
+.consent {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(600px, calc(100% - 32px));
+    background: var(--panel, #0e0d0b);
+    border: 1px solid var(--line, #2a2419);
+    border-radius: 20px;
+    padding: 22px 26px;
+    z-index: 9999;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 40px rgba(227, 171, 82, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    animation: consentSlideUp 0.35s ease-out forwards;
+}
+
+.consent[hidden] {
+    display: none !important;
+}
+
+.consent-text {
+    margin: 0;
+    font-family: var(--body, "Hanken Grotesk", sans-serif);
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--muted, #a79f90);
+}
+
+.consent-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.consent-btn {
+    font-family: var(--body, "Hanken Grotesk", sans-serif);
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.consent-btn[data-consent="denied"] {
+    background: transparent;
+    color: var(--text, #f2ece1);
+    border: 1.5px solid var(--line, #2a2419);
+}
+
+.consent-btn[data-consent="denied"]:hover {
+    border-color: var(--gold, #e3ab52);
+    color: var(--gold, #e3ab52);
+}
+
+.consent-btn[data-consent="granted"] {
+    background: var(--gold, #e3ab52);
+    color: #000;
+    border: 1.5px solid var(--gold, #e3ab52);
+}
+
+.consent-btn[data-consent="granted"]:hover {
+    background: var(--gold-2, #f3cc8a);
+    border-color: var(--gold-2, #f3cc8a);
+}
+
+@keyframes consentSlideUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
+@media (max-width: 600px) {
+    .consent {
+        bottom: 16px;
+        padding: 18px 20px;
+    }
+
+    .consent-actions {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .consent-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
