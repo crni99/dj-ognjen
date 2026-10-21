@@ -167,6 +167,10 @@ header.menu-open .menu-toggle span:nth-child(3) {
     display: none;
 }
 
+nav .brand.mobile-brand {
+    display: none;
+}
+
 @media (max-width: 860px) {
     .menu-toggle {
         display: block;
@@ -178,7 +182,7 @@ header.menu-open .menu-toggle span:nth-child(3) {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(0, 0, 0, 0.96);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -210,6 +214,17 @@ header.menu-open .menu-toggle span:nth-child(3) {
     header nav .btn.sm {
         font-size: 1.1rem;
         padding: 12px 28px;
+    }
+
+    header nav .brand.mobile-brand {
+        display: flex !important;
+        font-size: 1.2rem;
+        margin-bottom: 48px;
+    }
+
+    header nav .brand.mobile-brand img {
+        width: 48px;
+        height: 48px;
     }
 }
 
