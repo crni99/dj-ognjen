@@ -707,6 +707,19 @@ section {
     align-items: stretch;
 }
 
+.events .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: auto;
+    padding-top: 20px;
+}
+
 .card {
     background: var(--panel);
     border: 1px solid var(--line);
