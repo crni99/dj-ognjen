@@ -6,17 +6,17 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://djognjen.rs/dj-za-zurke-i-klubove.html</loc>
+        <loc>https://djognjen.rs/dj-za-zurke-i-klubove</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://djognjen.rs/dj-za-rodjendane.html</loc>
+        <loc>https://djognjen.rs/dj-za-rodjendane</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://djognjen.rs/dj-za-svadbe.html</loc>
+        <loc>https://djognjen.rs/dj-za-svadbe</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>

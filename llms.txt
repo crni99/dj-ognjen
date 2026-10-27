@@ -6,9 +6,9 @@ Sajt ima početnu stranu sa svim sekcijama (dostupne preko sidrenih linkova) i p
 
 ## Strane po tipu događaja
 
-- [DJ za žurke i klubove](https://djognjen.rs/dj-za-zurke-i-klubove.html): klupske noći, tematske i organizovane žurke. Nastup najčešće traje 4 do 5 sati. DJ donosi svoj kontroler i prateću opremu, a ozvučenje obezbeđuje klub ili organizator.
-- [DJ za svadbe](https://djognjen.rs/dj-za-svadbe.html): muzika po željama mladenaca, prvi ples, tok večeri, formati nastupa (blok za tortu, duži nastup, after posle benda) i rezervacija termina.
-- [DJ za rođendane i punoletstva](https://djognjen.rs/dj-za-rodjendane.html): rođendani, punoletstva, privatne žurke i godišnjice, uz muziku prilagođenu slavljeniku i društvu.
+- [DJ za žurke i klubove](https://djognjen.rs/dj-za-zurke-i-klubove): klupske noći, tematske i organizovane žurke. Nastup najčešće traje 4 do 5 sati. DJ donosi svoj kontroler i prateću opremu, a ozvučenje obezbeđuje klub ili organizator.
+- [DJ za svadbe](https://djognjen.rs/dj-za-svadbe): muzika po željama mladenaca, prvi ples, tok večeri, formati nastupa (blok za tortu, duži nastup, after posle benda) i rezervacija termina.
+- [DJ za rođendane i punoletstva](https://djognjen.rs/dj-za-rodjendane): rođendani, punoletstva, privatne žurke i godišnjice, uz muziku prilagođenu slavljeniku i društvu.
 
 ## Područje rada
 

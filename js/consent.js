@@ -70,6 +70,9 @@
         if (document.querySelector('link[href$="consent.css"]')) {
             document.body.appendChild(banner);
         } else {
+            var css = document.createElement('link');
+            css.rel = 'stylesheet';
+            css.href = '/css/consent.css';
             css.onload = css.onerror = function () { document.body.appendChild(banner); };
             document.head.appendChild(css);
         }
